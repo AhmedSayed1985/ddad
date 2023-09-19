@@ -1,11 +1,13 @@
-#inlcude <iostream>
+#include <iostream>
+#include <string>
 
 using namespace std;
 
 int main()
 {
 
-cout << "mido lazizo" << endl;
+const string& msg = "mido lazizo";
+cout << msg << endl;
 
 return 0;
 }
